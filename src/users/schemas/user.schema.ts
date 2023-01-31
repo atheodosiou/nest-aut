@@ -23,8 +23,8 @@ export class User {
   @Prop({ type: String })
   profilePhoto: string;
 
-  @Prop({ type: [{ type: Types.ObjectId, ref: 'App' }], default: [] })
-  applications: string[];
+  // @Prop({ type: [{ type: Types.ObjectId, ref: 'App' }], default: [] })
+  // applications: string[];
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
